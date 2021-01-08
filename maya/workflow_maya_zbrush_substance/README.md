@@ -61,7 +61,22 @@
 * Import the low poly zbrush model fbx
 * Apply Arnold Standard Surface Materials with basecolor, metalness, roughness and normal/bump maps
     * I have written a Maya python script to automate this
-    * Copy the SubstanceToMayaUtility.py file to maya user scripts (e.g. Documents\maya\2020\scripts)
+    * Copy the [SubstanceToMayaUtility.py](https://github.com/smoses2/python/blob/main/maya/workflow_maya_zbrush_substance/substanceToMayaUtility.py) file to maya user scripts (e.g. Documents\maya\2020\scripts)
     * In script window (or a shelf tool)
         * Import SubstanceToMayaUtility as stm 
         * stm.applySubstanceToSelectedShapes()
+
+## References
+* [Fpnotebook - Zbrush](https://fpnotebook.com/Manage/Computer/PxlgcZbrsh.htm)
+    * This is my own website, and where I originally documented this workflow
+* [Mike Hermes - Full 3D GAME ASSET workflow](https://www.youtube.com/watch?v=gs3nHivb5OQ)
+    * Mike creates 2 subtools, one that is high poly and one low poly
+* [Mike Hermes - How to bring SUBSTANCE PAINTER textures into Maya and use them](https://www.youtube.com/watch?v=hpxkZQqpSag)
+    * Detailed review of how to apply Susbtance Textures to Maya Arnold Standard Surface    
+* [Flipped Normals - Working with ZBrush and Substance Painter](https://www.youtube.com/watch?v=p56N-dN11zY)
+    * Zbrush and Susbtance Painter integration example
+* [Josh Antonio - Substance Painter to Arnold Workflow](https://www.youtube.com/watch?v=g9f0rPC1ENA)
+    * Short review of how to apply Susbtance Textures to Maya Arnold Standard Surface
+* [Sculpting a Scarecrow in ZBrush (Michael Ingrassia)](https://www.lynda.com/ZBrush-tutorials/Welcome/492707/544766-4.html?autoplay=false)
+    * Great process from Maya low poly to Zbrush high poly
+    * Also used his process for sdiv low/high export 
